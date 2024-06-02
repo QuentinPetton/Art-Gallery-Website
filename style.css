@@ -425,22 +425,27 @@ margin-top: 0;
 
 
 .hero-img{
-    content: url(starter-code/assets/desktop/image-hero.jpg);
+    content: url(starter-code/assets/desktop/image-hero@2x.jpg);
+    width: 50%;
     padding-left: 20vw;
     background: #151515;
 }
 .image-grid-1{
-    content: url(starter-code/assets/desktop/image-grid-1.jpg);
+    content: url(starter-code/assets/desktop/image-grid-1@2x.jpg);
+    width: 50%;
 }
 .image-grid-2{
-    content: url(starter-code/assets/desktop/image-grid-2.jpg);
+    content: url(starter-code/assets/desktop/image-grid-2@2x.jpg);
+    width: 50%;
 }
 .image-grid-3{
-    content: url(starter-code/assets/desktop/image-grid-3.jpg);
+    content: url(starter-code/assets/desktop/image-grid-3@2x.jpg);
+    width: 50%;
 }
 
 .map-img{
-    content: url(starter-code/assets/desktop/image-map.png);
+    content: url(starter-code/assets/desktop/image-map@2x.png);
+   
 }
 
 
@@ -453,9 +458,15 @@ position: relative;
     color: #ffffff;
     mix-blend-mode: difference;  
     position: absolute;
-    right: 61vw;
+    right: 60.7vw;
     white-space: nowrap;
+    font-size: 5rem;
+    line-height: 4.7rem;
 
+}
+
+.header-paragraph, .paragraph-main, .paragraph-come{
+    font-size: 1.375rem;
 }
 
 
@@ -463,6 +474,11 @@ main{
     margin-right: 7rem;
     margin-left: 7rem;
 
+}
+
+h2{
+    font-size: 3.75rem;
+    line-height: normal;
 }
 
 .h4-main{
