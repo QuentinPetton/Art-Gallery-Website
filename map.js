@@ -1,24 +1,13 @@
 console.log('hello main.js');
-var map = L.map('map').setView([51.505, -0.09], 13);
 
-function init(){
-const newport = {
+function init() {
 
-    lat: 41.48140,
-    lng: -71.31041
+var map = L.map('mapid').setView([41.48003, -71.30695], 15);
+var marker = L.marker([41.48003, -71.30695]).addTo(map);
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    }).addTo(map);
 }
-
-const zoomLevel = 7;
-
-const map = L.map('mapid').setView(newport.lat, newport.lng, zoomLevel);
-
-const mainLayer = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 19,
-    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-    id:'thunderforest',
-    accessToken: '0330ba1b64f14e2292f26b72517f056d'
-});
-
-mainLayer.addTo(map);
-}
-
+window.onload = init;
