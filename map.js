@@ -4,6 +4,7 @@ function init() {
 
 var map = L.map('mapid').setView([41.48003, -71.30695], 15);
 var marker = L.marker([41.48003, -71.30695]).addTo(map);
+marker.bindPopup("<b>Modern Art Gallery</b><br>99 King Street").openPopup();
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         maxZoom: 19,
