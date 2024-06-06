@@ -53,23 +53,6 @@ For this challenge, I focused on a mobile-first approach and added media queries
 
 I made the bonus challenge using Leaflet Js to create an interactive location map.
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-
 
 ### Continued development
 
