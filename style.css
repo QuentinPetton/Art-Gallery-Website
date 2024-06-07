@@ -133,6 +133,10 @@ h2{
     font-size: 1.125rem;
     margin: 1.5rem;
 }
+.image-grid-1, .image-grid-2, .image-grid-3{
+    width: 100%;
+}
+
 
 /* Footer */
 footer{
@@ -140,9 +144,8 @@ footer{
     color: #ffffff;
     padding-top: 3rem;
     padding-bottom: 3rem;
-    position: absolute;
-    left: 0;
-    right: 0;
+    width: 100%;
+
 
 }
 h4{
@@ -316,6 +319,7 @@ header{
 }
 .image-grid-2{
     content: url(starter-code/assets/tablet/image-grid-2.jpg);
+    height: 100%;
 }
 .image-grid-3{
     content: url(starter-code/assets/tablet/image-grid-3.jpg);
@@ -447,11 +451,11 @@ margin-top: 0;
 }
 .image-grid-2{
     content: url(starter-code/assets/desktop/image-grid-2@2x.jpg);
-    width: 50%;
+    height: 100%;
 }
 .image-grid-3{
     content: url(starter-code/assets/desktop/image-grid-3@2x.jpg);
-    width: 50%;
+
 }
 
 .map-img{
